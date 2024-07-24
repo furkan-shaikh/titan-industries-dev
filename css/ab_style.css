@@ -1,0 +1,415 @@
+.ftco-section .solution-heading h1 {
+    font-size: 36px;
+    font-family: Squada One;
+}
+
+.ftco-section .solution-section p {
+    font-family: Spartan;
+    font-size: 18px;
+}
+
+.product {
+    width: 380px;
+}
+
+.product button {
+    margin-top: 15px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #6ADBEC;
+    box-sizing: border-box;
+    border-radius: 11px;
+    padding: 1rem;
+}
+
+.solution-background {
+    background: #ECF0F0;
+}
+
+.heading-para {
+    font-size: 28px;
+    font-family: 'SquadaOne-Regular';
+    font-weight: normal;
+}
+
+.bim-background {
+    background-color: #F5F8F8;
+}
+
+.bim-side-section {
+    background-color: #ECF0F0;
+    padding: 1rem;
+}
+
+.bim-side-section .bim-heading h1 {
+    font-family: Squada One;
+    font-weight: 400;
+    font-size: 46px;
+    color: #334657;
+}
+
+.bim-side-bottom-section {
+    background-color: #A1F3FF;
+    padding: 4rem;
+}
+
+.bim-side-bottom-section .bim-button a {
+    background: #ffff;
+    border: 1px solid #6ADBEC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 17px 43px 17px 43px;
+    color: #334A80;
+}
+
+.forget-password-link a p {
+    text-decoration: none;
+    color: #334657;
+}
+
+
+/* products page */
+
+.heading-section-products h2 {
+    text-align: left;
+    font-family: "SquadaOne-Regular", sans-serif;
+    color: #00D1D7;
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.product-list ul {
+    line-height: 60px;
+    /* list-style: none; */
+    /* list-style-image: url('../images/listimage.png'); */
+}
+
+.product-list li::marker {
+    font-size: 1.7rem;
+}
+
+.ftco-section .product-image {
+    position: relative;
+}
+
+.ftco-section .product-image-one {
+    position: absolute
+}
+
+.ftco-section .product-image-one img {
+    margin-top: -82px;
+    margin-left: 132px;
+}
+
+.ftco-section .product-image-two {
+    position: absolute;
+}
+
+.ftco-section .product-image-two img {
+    margin-left: 358px;
+    margin-top: -100px;
+}
+
+.product-category {
+    padding: 1rem;
+    padding-bottom: 85px;
+}
+
+.product-category .heading-section-category img {
+    margin-top: -55px;
+    position: absolute;
+}
+
+.card {
+    width: 13rem;
+    height: 265px;
+}
+
+.card .card-img-top {
+    height: 149px;
+}
+
+.card .card-body {
+    background-color: rgba(233, 238, 243, 0.4);
+    position: relative;
+}
+
+.card-body button {
+    border: 0px;
+    background: rgba(233, 238, 243, 0.4);
+    position: absolute;
+    margin-left: 138px;
+}
+
+.card .card-body h5 {
+    font-family: "SquadaOne-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 16px;
+}
+
+.card .card-body p {
+    font-family: Spartan;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.product-sub-section-heading {
+    font-size: 24px;
+    font-family: 'SquadaOne-Regular';
+    font-weight: 300;
+}
+
+.product-sub-section-heading span {
+    color: #FF7B72;
+    background-color: #ffff;
+    border-radius: 10px;
+    font-size: 12px;
+    position: absolute;
+}
+
+.query-button a {
+    float: right;
+    margin-top: -36px;
+}
+
+.product-background {
+    background-color: #EEF3F3;
+}
+
+.hero-wrap-3 {
+    height: 267px !important;
+    position: relative;
+}
+
+.hero-wrap-3 .slider-text {
+    height: 318px !important;
+}
+
+.hero-wrap.hero-wrap-3 {
+    height: 231px !important;
+    position: relative;
+}
+
+.hero-wrap.hero-wrap-3 .overlay {
+    width: 100%;
+    opacity: .1;
+    height: 600px;
+}
+
+.hero-wrap.hero-wrap-3 .slider-text {
+    height: 294px !important;
+}
+
+.hero-wrap.hero-wrap-3 .slider-text h1:after {
+    display: none;
+}
+
+.pr-block {
+    height: 100%;
+}
+
+.accordian-image-section {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.about-card:hover{
+    opacity: 1 !important;
+    -webkit-box-shadow: 2px 5px 15px rgb(0 0 0 / 30%);
+    box-shadow: 2px 5px 15px rgb(0 0 0 / 30%);
+    -webkit-transform: translate(0, -10px);
+    transform: translate(0, -10px);
+    z-index: 999;
+    background-color: #a4fcff;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Modal Content */
+
+.modal-content-custom {
+    background-color: #fefefe;
+    margin: auto;
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 65%;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    padding: 1rem;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-control-modal {
+    height: 40px !important;
+    background: #fff !important;
+    color: #000000 !important;
+    font-size: 14px;
+    width: 100%;
+    /* margin-left: 14px; */
+    border-radius: 5px;
+    /* margin-right: 50px; */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.modal .modal-content-custom .modal-product-detail {
+    margin-top: 35px;
+}
+
+.modal .modal-content-custom .catagory-label {
+    font-size: 14px;
+    font-family: Spartan;
+}
+
+.modal .modal-content-custom .modal-product-detail h4 {
+    font-size: 24px;
+    font-family: Spartan;
+    font-weight: 700;
+}
+
+.modal .modal-content-custom .modal-product-detail h5 {
+    font-size: 24px;
+    font-family: Spartan;
+    font-weight: 600;
+}
+
+.modal-product-specification h5 {
+    font-size: 14px;
+    font-family: Spartan;
+    font-weight: 500;
+}
+
+.modal-product-specification p {
+    font-size: 14px;
+    font-family: Spartan;
+    font-weight: 400;
+}
+
+.modal .modal-products-image {
+    margin-top: 96px;
+}
+
+.sub-logo-img {
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myVideo {
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 114%;
+    position: absolute; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 30px;
+    /* min-width: 100%;
+    min-height: 100%; */
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 97vh;
+}
+
+.container .absolute {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 40%;
+}
+
+.container .absolute {
+    font-family: "SquadaOne-Regular", sans-serif;
+    text-transform: unset;
+    font-weight: 500;
+}
+
+.container .absolute h1 .top-txt {
+    display: inline-block;
+    padding-bottom: 13px;
+    color: #fff;
+    line-height: 1.1;
+    font-size: 1.18em;
+}
+
+.container .absolute h1 .btm-txt {
+    color: #00D1D7;
+    line-height: 0.9;
+    font-size: 1.6em;
+}
+
+.table-fonts{
+    font-size: 14px;
+    font-family: "SquadaOne-Regular";
+}
+
+.card-body h6{
+
+    font-family: "Spartan";
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: -13px;
+
+}
+
+@media only screen and (max-width:768px) {
+    .product {
+        width: 100%;
+    }
+    .product-title-image-section {
+        display: none;
+    }
+    .query-button {
+        display: none;
+    }
+    .heading-section-category {
+        margin-right: 45px;
+    }
+    .card {
+        width: 100%;
+    }
+    .modal-content-custom {
+        width: 99%;
+    }
+    .container .absolute {
+        position: absolute;
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+    }
+}
